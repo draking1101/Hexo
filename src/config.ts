@@ -36,7 +36,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/draking1101?tab=repositories',
       external: true,
     },
   ],
@@ -47,20 +47,21 @@ export const profileConfig: ProfileConfig = {
   name: 'Lorem Ipsum',
   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   links: [
+    // 模板
+    // {
+    //   name: '',
+    //   icon: 'fa6-brands:name',
+    //   url: '',
+    // },
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
-    },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'Twitch',
+      icon: 'fa6-brands:twitch',
+      url: 'https://www.twitch.tv/xiaotian1101',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/draking1101?tab=repositories',
     },
   ],
 }
