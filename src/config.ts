@@ -6,21 +6,26 @@ import type {
 } from './types/config'
 import { LinkPreset } from './types/config'
 
+
+
 export const siteConfig: SiteConfig = {
+  //左上角首頁icon旁的Text
   title: 'Fuwari',
   subtitle: 'Demo Site',
-  lang: 'en',
+  lang: 'zh',
   themeHue: 250,
+  // 上方橫幅
   banner: {
-    enable: false,
-    src: 'assets/images/demo-banner.png',
+    enable: true,
+    src: 'assets/images/2gungirls.jpg',
   },
+  // favicon - 網站上方分頁的圖示
   favicon: [    // Leave this array empty to use the default favicon
-    // {
-    //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-    //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-    //   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-    // }
+    {
+      src: '/favicon/favicon-dark-192.png',    // Path of the favicon, relative to the /public directory
+      //theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+      //sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+    }
   ]
 }
 
